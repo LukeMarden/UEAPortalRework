@@ -3,12 +3,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+
 }
-
-
 .navbar {
     background: #fbfbfb;
 
@@ -30,6 +26,13 @@ body{
     text-align: center;
     margin-top: auto;
 
+}
+
+.bg {
+    background-image: url("images/concrete.jpg");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .map {
