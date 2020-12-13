@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - Done all but css" />
+    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - Done all but css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UEAMaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/UEAMaps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/UEAMaps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/UEAMaps.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +72,7 @@
       <workItem from="1607357550855" duration="605000" />
       <workItem from="1607803637434" duration="4410000" />
       <workItem from="1607868872992" duration="2704000" />
+      <workItem from="1607893097500" duration="2324000" />
     </task>
     <task id="LOCAL-00001" summary="Luke">
       <created>1606953981732</created>
@@ -125,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607871640669</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Luke">
+      <created>1607893245651</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607893245651</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,11 +156,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Luke" />
     <MESSAGE value="Luke - Added footer to maps page" />
     <MESSAGE value="Luke - Added a map" />
     <MESSAGE value="Luke - added background image" />
     <MESSAGE value="Luke - Done all but css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luke - Done all but css" />
+    <MESSAGE value="Luke" />
+    <option name="LAST_COMMIT_MESSAGE" value="Luke" />
   </component>
 </project>

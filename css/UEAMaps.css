@@ -49,6 +49,10 @@ body{
 .map {
     /*text-align: center;*/
 }
+.map-buttons{
+    text-align: center;
+    align-content: center;
+}
 h3{
     font-size: 25px;
 }
@@ -57,6 +61,7 @@ h4{
 }
 
 .sides{
+    padding-top: 10px;
     border-style: solid;
     border-color: #1a1e21;
 }
@@ -67,6 +72,8 @@ h4{
 .search{
     align-content: center;
     width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
     padding-bottom: 300px;
     border-style: solid;
     border-color: #1a1e21;
@@ -74,12 +81,15 @@ h4{
 
 .info{
     width: 100%;
+    margin-top: 20px;
     align-content: center;
     text-align: center;
     border-style: solid;
     border-color: #1a1e21;
+    padding-top: 10px;
     padding-bottom: 300px;
 }
+
 
 
 
