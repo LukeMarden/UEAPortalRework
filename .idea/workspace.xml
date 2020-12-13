@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - added background image">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UEAMaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/UEAMaps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/UEAMaps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/UEAMaps.css" afterDir="false" />
-    </list>
+    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - Done all but css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +67,7 @@
       <workItem from="1607264050387" duration="4755000" />
       <workItem from="1607357550855" duration="605000" />
       <workItem from="1607803637434" duration="4410000" />
-      <workItem from="1607868872992" duration="2510000" />
+      <workItem from="1607868872992" duration="2704000" />
     </task>
     <task id="LOCAL-00001" summary="Luke">
       <created>1606953981732</created>
@@ -122,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607083523367</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Luke - Done all but css">
+      <created>1607871640669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607871640669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +148,7 @@
     <MESSAGE value="Luke - Added footer to maps page" />
     <MESSAGE value="Luke - Added a map" />
     <MESSAGE value="Luke - added background image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luke - added background image" />
+    <MESSAGE value="Luke - Done all but css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Luke - Done all but css" />
   </component>
 </project>
