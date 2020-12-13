@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke">
+    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - added background image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UEAMaps.html" beforeDir="false" afterPath="$PROJECT_DIR$/UEAMaps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/UEAMaps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/UEAMaps.css" afterDir="false" />
@@ -67,7 +67,11 @@
       <updated>1606934052117</updated>
       <workItem from="1606934056705" duration="3919000" />
       <workItem from="1606953956514" duration="7356000" />
-      <workItem from="1607009345152" duration="7045000" />
+      <workItem from="1607009345152" duration="7473000" />
+      <workItem from="1607264050387" duration="4755000" />
+      <workItem from="1607357550855" duration="605000" />
+      <workItem from="1607803637434" duration="4410000" />
+      <workItem from="1607868872992" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary="Luke">
       <created>1606953981732</created>
@@ -104,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607026994469</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Luke - added background image">
+      <created>1607083511511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607083511511</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Luke - added background image">
+      <created>1607083523367</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607083523367</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +144,7 @@
     <MESSAGE value="Luke" />
     <MESSAGE value="Luke - Added footer to maps page" />
     <MESSAGE value="Luke - Added a map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luke - Added a map" />
+    <MESSAGE value="Luke - added background image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Luke - added background image" />
   </component>
 </project>

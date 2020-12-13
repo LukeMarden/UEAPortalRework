@@ -1,64 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/UEAMaps.css">
-</head>
-<header class="navbar navbar-expand-md navbar-light">
-    <a class="navbar-brand">
-        <div class="container container-fluid">
-            <img class="img-fluid" src="https://www.uea.ac.uk/o/uea-website-theme/images/color_schemes/generic-pages-templates-black-logo/logo.png">
-        </div>
-    </a>
-    <div class="container container-fluid">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <form class="form">
-                    <input class="form-control" type="text" placeholder="Search"
-                           aria-label="Search">
-                </form>
-            </li>
-            <li class="nav-item">
-                <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Menu</a>
-            </li>
-        </ul>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/UEAMaps.css">
+    </head>
+
+    <body>
+        <header class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand">
+                <div class="container container-fluid">
+                    <img class="img-fluid" src="https://www.uea.ac.uk/o/uea-website-theme/images/color_schemes/generic-pages-templates-black-logo/logo.png">
+                </div>
+            </a>
+            <div class="container container-fluid">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <form class="form">
+                            <input class="form-control" type="text" placeholder="Search"
+                                   aria-label="Search">
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Menu</a>
+                    </li>
+                </ul>
 
 
-    </div>
-
-
-</header>
-<body class=".bg">
-    <div class ="container container-fluid">
-        <div class="row">
-            <h1 style="text-align: center">Campus Map</h1>
-        </div>
-    </div>
-    <div class="container map">
-        <div class="row-fluid">
-            <div class="span8">
-                <iframe width="65%" height="600pt" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.106211294224!2d1.2369874156371188!3d52.621924736423274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e0d87b805801%3A0xb9b97bf00744e573!2sUniversity%20of%20East%20Anglia!5e0!3m2!1sen!2suk!4v1607016363720!5m2!1sen!2suk"></iframe>
             </div>
 
-        </div>
-    </div>
-    <footer class="card-footer" id="map_footer">
-        <div class="container container-fluid">
-            <div class="col-xs-12">
-                <p> © UEA. All rights reserved. University of East Anglia, Norwich Research Park, Norwich, Norfolk, NR4 7TJ, UK
-                </p>
-                <p>
-                    +44 (0) 1603 456161
-                </p>
-                <figure>
-                    <img class="img-fluid" src="images/TEFGold_240.png" alt="Teaching Excellence Framework" style="width: 160px;">
-                </figure>
+
+        </header>
+        <main class="container">
+            <div class ="container container-fluid ">
+                <div class="row">
+                    <h1 style="text-align: center">Campus Map</h1>
+                </div>
             </div>
-        </div>
-    </footer>
-</body>
+            <div class="container map d-none d-lg-block">
+                <div class="row h-100">
+                    <div class="col-3 sides">
+                        <h2>Information:</h2>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="h-100">
+                                    <h3><u>Opening Times:</u></h3>
+                                    <h4>Weekdays:</h4> 00:00 - 00:00
+                                    <h4>Saturday:</h4> 00:00 - 00:00
+                                    <h4>Sunday:</h4> 00:00 - 00:00
+                                    <h3><u>Description:</u></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe width="100%" height="600px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.106211294224!2d1.2369874156371188!3d52.621924736423274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e0d87b805801%3A0xb9b97bf00744e573!2sUniversity%20of%20East%20Anglia!5e0!3m2!1sen!2suk!4v1607016363720!5m2!1sen!2suk"></iframe>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Parking</a>
+                            </div>
+                            <div class="col-md-3">
+                                <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Food & Bars</a>
+                            </div>
+                            <div class="col-md-3">
+                                <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Disabled Access</a>
+                            </div>
+                            <div class="col-md-3">
+                                <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Main Facilities</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 sides">
+                        <div class="h-100">
+                            <form class="form">
+                                <input class="form-control" type="text" placeholder="Search"
+                                       aria-label="Search">
+                            </form>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="container mobile d-block d-lg-none">
+                <div class="row mobile-map">
+                    <div class="col-12">
+                        <iframe width="100%" height="600px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.106211294224!2d1.2369874156371188!3d52.621924736423274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e0d87b805801%3A0xb9b97bf00744e573!2sUniversity%20of%20East%20Anglia!5e0!3m2!1sen!2suk!4v1607016363720!5m2!1sen!2suk"></iframe>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Parking</a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Food & Bars</a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Disabled Access</a>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Main Facilities</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row search">
+                    <div class="col-12">
+                        <form class="form">
+                            <input class="form-control" type="text" placeholder="Search"
+                                   aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col-12">
+                        <h2>Information:</h2>
+                        <div class="h-100">
+                            <h3><u>Opening Times:</u></h3>
+                            <h4>Weekdays:</h4> 00:00 - 00:00
+                            <h4>Saturday:</h4> 00:00 - 00:00
+                            <h4>Sunday:</h4> 00:00 - 00:00
+                            <h3><u>Description:</u></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="card-footer" id="map_footer">
+            <div class="container container-fluid">
+                <div class="col-xs-12">
+                    <p> © UEA. All rights reserved. University of East Anglia, Norwich Research Park, Norwich, Norfolk, NR4 7TJ, UK
+                    </p>
+                    <p>
+                        +44 (0) 1603 456161
+                    </p>
+                    <figure>
+                        <img class="img-fluid" src="images/TEFGold_240.png" alt="Teaching Excellence Framework" style="width: 160px;">
+                    </figure>
+                </div>
+            </div>
+        </footer>
+
+    </body>
 
 </html>
