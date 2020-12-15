@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.mainHeader {
+  position: sticky;
+  top: 0;
+  padding: 15px 50px;
+  background-color: #222222;
+  box-shadow: 0 3px 5px black;
+}
+
+.logoHeader {
+  margin: 0;
+}
+
+.buttonContainerHeader {
+  float: right;
+}
+
+.buttonHeader {
+  background-color: #ff00a5;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  display: inline-block;
+  transition-duration: 0.2s;
+}
+
+.buttonHeader:hover {
+  background-color: white;
+  color: black;
+}
+
+.welcome {
+  background-image: url('img/INTO-UEA-campus-outside.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: static;
+  margin-top: -60px;
+  padding: 60px;
+}
+
+.welcome h1, h2 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px 3px black;
+  margin-bottom: 10px;
+}
+
+.welcomeSearch {
+  background-color: rgba(255,255,255,0.1);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: 5px solid #ffffff;
+  border-radius: 15px;
+  padding: 20px 15px;
+  width:50%;
+  display: inline-block;
+  transition-duration: 0.2s;
+}
+
+.standardDiv {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
