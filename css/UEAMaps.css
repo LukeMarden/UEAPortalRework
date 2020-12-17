@@ -74,7 +74,6 @@ h4{
     width: 100%;
     margin-top: 20px;
     padding-top: 10px;
-    padding-bottom: 300px;
     border-style: solid;
     border-color: #1a1e21;
 }
@@ -87,8 +86,10 @@ h4{
     border-style: solid;
     border-color: #1a1e21;
     padding-top: 10px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
+
+
 
 
 
