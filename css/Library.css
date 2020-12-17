@@ -1,0 +1,179 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.navbar {
+    background: #282828;
+    color: white;
+    border-bottom: 5px solid;
+    border-bottom-color: deepskyblue;
+    padding-left: 40px;
+    font-weight: bold;
+    padding-right: 40px;
+}
+.navbar li {
+    color: white;
+
+}
+
+.welcome {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: static;
+    padding: 60px;
+
+}
+
+.welcome h1 {
+    color: #ff00a5;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 10px;
+}
+
+.welcome h2 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+.right-side {
+    padding-left: 10px;
+    background: rgba(204, 204, 204, 0.5);
+    padding-bottom: 10px;
+
+}
+
+.search_text {
+    font-size: 200%;
+    color: #ff00a5;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.newsText {
+
+    padding: 30px;
+}
+.newsText h1{
+    color: #ff00a5;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 10px;
+
+
+}
+.searchDiv {
+
+    /*width: 80%;*/
+    /*justify-content: space-around;*/
+
+
+}
+.librarySearch {
+    width: 80%;
+    padding: 15px;
+    border-radius: 15px;
+    justify-content: space-around;
+
+
+}
+
+.buttonSearch {
+    color: white;
+    background-color:  #ff00a5;
+    padding: 15px; border-radius: 10px
+
+}
+
+.searchOther {
+    padding-top: 5px;
+    font-size: 145%;
+    color: #ff00a5;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.social a {
+    font-size: 40px;
+    padding: 30px;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #00aced;
+}
+
+.fa-youtube{
+    color: #bb0000;
+}
+
+.fa-instagram{
+    color: #517fa4;
+}
+
+
+
+/*.navbar-nav li {*/
+/*    padding-right: 20px;*/
+/*}*/
+
+/*.header {*/
+/*    padding: 10px;*/
+/*    background: #282828;*/
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*    border-bottom: 6px solid;*/
+/*    border-bottom-color: deepskyblue;*/
+
+
+
+/*}*/
+
+/*.header:hover {*/
+/*    color: deepskyblue;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.footer {
+    background: #282828;
+    color: #fbfbfb;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    height: 175px;
+    bottom: 0;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .right-side{
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 700px) {
+    .right-side{
+        flex-direction: column;
+    }
+
+}
