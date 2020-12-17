@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke">
-      <change afterPath="$PROJECT_DIR$/Library.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Library.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/UEA-Star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/libraryIn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/libraryMain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/libraryOut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/libraryOut2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/servicelib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tutorial-29.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/uearead.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/updatelib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/white mic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/whitemag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/whitesearch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UEAPortalRework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UEAPortalRework.iml" afterDir="false" />
+    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Sven">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/26-512.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/26-512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608213995586</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Sven">
+      <created>1608218090637</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608218090637</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +210,7 @@
     <MESSAGE value="Luke" />
     <MESSAGE value="Luke - Added voice to navbar" />
     <MESSAGE value="Luke - Edited my search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luke - Edited my search" />
+    <MESSAGE value="Sven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sven" />
   </component>
 </project>
