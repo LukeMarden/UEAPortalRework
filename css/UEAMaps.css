@@ -33,17 +33,56 @@ body{
 }
 
 .navbar {
-    background: #fbfbfb;
+    background: #282828;
+    color: white;
+    border-bottom: 5px solid;
+    border-bottom-color: deepskyblue;
+    padding-left: 40px;
+    font-weight: bold;
+    padding-right: 40px;
+    top: 0;
 
 }
-.btn_navbar_primary{
-    background-color: #fbfbfb;
-    border-color: #1a1e21;
-    margin-right: 10px;
-    margin-left: 10px;
+.navbar li {
+    color: white;
 
 }
+
+.buttonSearch {
+    color: white;
+    background-color:  #ff00a5;
+    padding: 15px; border-radius: 10px
+
+}
+
+.searchOther {
+    padding-top: 5px;
+    font-size: 145%;
+    color: #ff00a5;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/*.btn_navbar_primary{*/
+/*    background-color: #fbfbfb;*/
+/*    border-color: #1a1e21;*/
+/*    margin-right: 10px;*/
+/*    margin-left: 10px;*/
+
+/*}*/
 .btn_body_primary{
+    border-style: solid;
+    border-color: deepskyblue;
+    background-color: #fbfbfb;
+}
+.btn_body_search_primary{
+    margin-left: 20px;
+    margin-right:20px;
+    /*!*margin-outside: 20px;*!*/
+    /*padding-right: 20px;*/
+    border-style: solid;
+    border-color: deepskyblue;
     background-color: #fbfbfb;
 }
 .btn_navbar_hover{
@@ -69,7 +108,7 @@ h4{
 .sides{
     padding-top: 10px;
     border-style: solid;
-    border-color: #1a1e21;
+    border-color: deepskyblue;
 }
 .mobile-map{
     align-content: center;
@@ -81,7 +120,7 @@ h4{
     margin-top: 20px;
     padding-top: 10px;
     border-style: solid;
-    border-color: #1a1e21;
+    border-color: deepskyblue;
 }
 
 .info{
@@ -90,13 +129,15 @@ h4{
     align-content: center;
     text-align: center;
     border-style: solid;
-    border-color: #1a1e21;
+    border-color: deepskyblue;
     padding-top: 10px;
     padding-bottom: 200px;
 }
 
 
-
+.desktop-search{
+    align-content: center;
+}
 
 
 

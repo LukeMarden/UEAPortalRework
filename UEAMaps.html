@@ -8,35 +8,66 @@
     </head>
 
     <body>
-        <header class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand">
-                <div class="container container-fluid">
-                    <img class="img-fluid" src="https://www.uea.ac.uk/o/uea-website-theme/images/color_schemes/generic-pages-templates-black-logo/logo.png">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <!--    for the logo-->
+                <a class="navbar-brand" href="#">MY UEA</a>
+                <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1"-->
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Fill 28</title><g
+                        id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path
+                        d="M8.18752582,16.9130829 C8.11309376,10.2758407 6.62023957,8.84824988 0,8.78355118 L0,8.12812526 C6.62023957,8.06202008
+                               8.11309376,6.63864877 8.18752582,-5.68434189e-14 L8.81247418,-5.68434189e-14 C8.88831062,6.63864877 10.3797604,8.0563941
+                               17,8.12249929 L17,8.78355118 C10.3797604,8.84824988 8.88831062,10.2758407 8.81247418,16.9130829 L8.18752582,16.9130829"
+                        id="Fill-28" fill="#00AEF0"></path></g>
+                </svg>
+                <!--        <a class="navbar-brand" href="#">MY UEA</a>-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ACCOUNT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NEWS</a>
+                        </li>
+                        <!--                <li class="nav-item">-->
+                        <!--                    <form class="form">-->
+                        <!--                        <input class="form-control" type="text" placeholder="Search"-->
+                        <!--                               aria-label="Search">-->
+                        <!--                    </form>-->
+                        <!--                </li>-->
+
+                        <li class="nav-item ml-auto">
+                            <a class="btn btn_navbar_primary" href="#">
+                                <img src="images/cog.png" height="25px" width="25px">
+                            </a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="btn btn_navbar_primary" href="#">
+                                <img src="images/whitemag.png" height="25px" width="25px">
+                            </a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="btn btn_navbar_primary" href="#">
+                                <img src="images/26-512.png" height="25px" width="25px">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MENU</a>
+                        </li>
+
+                    </ul>
                 </div>
-            </a>
-            <div class="container container-fluid">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <form class="form">
-                            <input class="form-control" type="text" placeholder="Search"
-                                   aria-label="Search">
-                        </form>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">Menu</a>
-                    </li>
-                    <li class="nav-item ml-auto">
-                        <a class="btn btn_navbar_primary btn_navbar_hover:hover" href="#">
-                            <img src="images/26-512.png" height="25px" width="25px">
-                        </a>
-                    </li>
-                </ul>
 
 
             </div>
-
-
-        </header>
+        </nav>
         <main class="container">
             <div class ="container container-fluid ">
                 <div class="row">
@@ -80,16 +111,25 @@
                     </div>
                     <div class="col-md-3 sides">
                         <div class="row desktop-search">
-                            <form class="form col-md-8">
-                                <input class="form-control col-4" type="text" placeholder="Search"
-                                       aria-label="Search">
+                            <form>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input class="form-control" type="text" placeholder="Search"
+                                               aria-label="Search">
+                                    </div>
+                                    <div class="col-2">
+                                        <a class="btn btn_body_search_primary btn_navbar_hover:hover" href="#">
+                                            <img src="images/search.png" height="15px" width="15px">
+                                        </a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a class="btn btn_body_search_primary btn_navbar_hover:hover" href="#">
+                                            <img src="images/26-512B.png" height="15px" width="15px">
+                                        </a>
+                                    </div>
+                                </div>
                             </form>
-                            <a class="btn btn_body_primary btn_navbar_hover:hover col-md-2" href="#">
-                                <img src="images/search.png" height="15px" width="15px">
-                            </a>
-                            <a class="btn btn_body_primary btn_navbar_hover:hover col-md-2" href="#">
-                                <img src="images/26-512.png" height="15px" width="15px">
-                            </a>
+
                         </div>
                         <div class="row">
                             <div class="form-group">
@@ -149,7 +189,7 @@
                             <img src="images/search.png" height="15px" width="15px">
                         </a>
                         <a class="btn btn_body_primary btn_navbar_hover:hover col-1" href="#">
-                            <img src="images/26-512.png" height="15px" width="15px">
+                            <img src="images/26-512B.png" height="15px" width="15px">
                         </a>
                     </div>
                     <div class="row">
