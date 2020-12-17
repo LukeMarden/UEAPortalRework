@@ -38,7 +38,13 @@ body{
 }
 .btn_navbar_primary{
     background-color: #fbfbfb;
+    border-color: #1a1e21;
+    margin-right: 10px;
+    margin-left: 10px;
 
+}
+.btn_body_primary{
+    background-color: #fbfbfb;
 }
 .btn_navbar_hover{
     background-color: #5c636a;
