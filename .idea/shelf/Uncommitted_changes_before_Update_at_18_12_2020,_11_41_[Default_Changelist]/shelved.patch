@@ -1,0 +1,75 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"3d581aa2-eb37-44c5-a2eb-8b1b7eb56204\" name=\"Default Changelist\" comment=\"Sven\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Library.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Library.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1l72wreceL4yYZDdX0pgVFpWeAx\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/images\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JavaScript Debug.Library.html\">\n    <configuration name=\"404.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/UEAPortalRework/Mike/404.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Library.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/UEAPortalRework/Library.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"UEAMaps.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/UEAPortalRework/UEAMaps.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"index.html (1)\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/UEAPortalRework/index.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"index.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/UEAPortalRework/Mike/index.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <list>\n      <item itemvalue=\"JavaScript Debug.UEAMaps.html\" />\n      <item itemvalue=\"JavaScript Debug.404.html\" />\n      <item itemvalue=\"JavaScript Debug.index.html\" />\n      <item itemvalue=\"JavaScript Debug.index.html (1)\" />\n      <item itemvalue=\"JavaScript Debug.Library.html\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JavaScript Debug.Library.html\" />\n        <item itemvalue=\"JavaScript Debug.index.html (1)\" />\n        <item itemvalue=\"JavaScript Debug.UEAMaps.html\" />\n        <item itemvalue=\"JavaScript Debug.index.html\" />\n        <item itemvalue=\"JavaScript Debug.404.html\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"3d581aa2-eb37-44c5-a2eb-8b1b7eb56204\" name=\"Default Changelist\" comment=\"\" />\n      <created>1606934052117</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1606934052117</updated>\n      <workItem from=\"1606934056705\" duration=\"3919000\" />\n      <workItem from=\"1606953956514\" duration=\"7356000\" />\n      <workItem from=\"1607009345152\" duration=\"7473000\" />\n      <workItem from=\"1607264050387\" duration=\"4755000\" />\n      <workItem from=\"1607357550855\" duration=\"605000\" />\n      <workItem from=\"1607803637434\" duration=\"4410000\" />\n      <workItem from=\"1607868872992\" duration=\"2704000\" />\n      <workItem from=\"1607893097500\" duration=\"2355000\" />\n      <workItem from=\"1608212296952\" duration=\"2714000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Luke\">\n      <created>1606953981732</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1606953981732</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Luke\">\n      <created>1606962203454</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1606962203454</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Luke - Added footer to maps page\">\n      <created>1607014571941</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607014571941</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Luke - Added a map\">\n      <created>1607016686728</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607016686728</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Luke - Added a map\">\n      <created>1607026994469</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607026994469</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Luke - added background image\">\n      <created>1607083511511</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607083511511</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Luke - added background image\">\n      <created>1607083523367</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607083523367</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Luke - Done all but css\">\n      <created>1607871640669</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607871640669</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Luke\">\n      <created>1607893245651</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607893245651</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Luke - Added voice to navbar\">\n      <created>1607895986657</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1607895986657</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Luke - Edited my search\">\n      <created>1608213995586</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1608213995586</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"Sven\">\n      <created>1608218090637</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1608218090637</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"13\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Luke - Added footer to maps page\" />\n    <MESSAGE value=\"Luke - Added a map\" />\n    <MESSAGE value=\"Luke - added background image\" />\n    <MESSAGE value=\"Luke - Done all but css\" />\n    <MESSAGE value=\"Luke\" />\n    <MESSAGE value=\"Luke - Added voice to navbar\" />\n    <MESSAGE value=\"Luke - Edited my search\" />\n    <MESSAGE value=\"Sven\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Sven\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 25a8103f0adf2d007edb9cf48a471f98dddbf4c0)
++++ b/.idea/workspace.xml	(date 1608291674146)
+@@ -1,9 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Sven">
++    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - Added a cog and some styling">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Library.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -49,7 +48,7 @@
+       <recent name="$PROJECT_DIR$/images" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JavaScript Debug.Library.html">
++  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+     <configuration name="404.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UEAPortalRework/Mike/404.html" useBuiltInWebServerPort="true">
+       <method v="2" />
+     </configuration>
+@@ -74,9 +73,9 @@
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="JavaScript Debug.Library.html" />
+         <item itemvalue="JavaScript Debug.index.html (1)" />
+         <item itemvalue="JavaScript Debug.UEAMaps.html" />
++        <item itemvalue="JavaScript Debug.Library.html" />
+         <item itemvalue="JavaScript Debug.index.html" />
+         <item itemvalue="JavaScript Debug.404.html" />
+       </list>
+@@ -99,6 +98,7 @@
+       <workItem from="1607868872992" duration="2704000" />
+       <workItem from="1607893097500" duration="2355000" />
+       <workItem from="1608212296952" duration="2714000" />
++      <workItem from="1608282771406" duration="919000" />
+     </task>
+     <task id="LOCAL-00001" summary="Luke">
+       <created>1606953981732</created>
+@@ -184,7 +184,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1608218090637</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="Luke - Added a cog and some styling">
++      <created>1608229358599</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1608229358599</updated>
++    </task>
++    <option name="localTasksCounter" value="14" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -211,6 +218,7 @@
+     <MESSAGE value="Luke - Added voice to navbar" />
+     <MESSAGE value="Luke - Edited my search" />
+     <MESSAGE value="Sven" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Sven" />
++    <MESSAGE value="Luke - Added a cog and some styling" />
++    <option name="LAST_COMMIT_MESSAGE" value="Luke - Added a cog and some styling" />
+   </component>
+ </project>
+\ No newline at end of file

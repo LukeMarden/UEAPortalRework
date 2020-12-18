@@ -157,3 +157,19 @@ h1 {
   .sidebarMenu {padding-top: 15px;}
   .sidebarMenu a {font-size: 18px;}
 }
+
+.navbar {
+  background: #282828;
+  color: white;
+  border-bottom: 5px solid;
+  border-bottom-color: deepskyblue;
+  padding-left: 40px;
+  font-weight: bold;
+  padding-right: 40px;
+  top: 0;
+
+}
+.navbar li {
+  color: white;
+
+}
