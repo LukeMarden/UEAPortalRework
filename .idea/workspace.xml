@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - Main navbar">
-      <change beforePath="$PROJECT_DIR$/Library.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Library.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Library.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/UEAMaps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/UEAMaps.css" afterDir="false" />
+    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - Navbars now consistent">
+      <change beforePath="$PROJECT_DIR$/css/UEAmain.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/UEAmain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608292936892</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Luke - Navbars now consistent">
+      <created>1608293270916</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608293270916</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,7 @@
     <MESSAGE value="Luke - Edited my search" />
     <MESSAGE value="Sven" />
     <MESSAGE value="Luke - Main navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luke - Main navbar" />
+    <MESSAGE value="Luke - Navbars now consistent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Luke - Navbars now consistent" />
   </component>
 </project>
