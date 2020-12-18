@@ -139,5 +139,46 @@ h4{
     align-content: center;
 }
 
+/* MENU SIDEBAR */
+
+.sidebarMenu {
+    height: 100%;
+    width: 0;
+    min-width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(20,20,20,1);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidebarMenu a {
+    padding: 10px 50px 10px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.1s;
+}
+
+.sidebarMenu a:hover {
+    color: #f1f1f1;
+}
+
+.sidebarMenu .xButton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebarMenu {padding-top: 15px;}
+    .sidebarMenu a {font-size: 18px;}
+}
 
 
