@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Sven">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_12_2020__15_18__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_12_2020__15_18__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_12_2020__16_24__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_12_2020__16_24__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library.html" beforeDir="false" afterPath="$PROJECT_DIR$/Library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Library.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Library.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Library.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="404.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UEAPortalRework/Mike/404.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -74,10 +77,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Library.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.UEAMaps.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.Library.html" />
+        <item itemvalue="JavaScript Debug.UEAMaps.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.404.html" />
       </list>
     </recent_temporary>
@@ -184,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608218090637</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Sven">
+      <created>1608222216117</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608222216117</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -6,6 +6,7 @@
         <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/Library.css">
+        <link rel="stylesheet" href="css/UEAMaps.css">
 
     </head>
     <body>
@@ -74,32 +75,28 @@
     </nav>
 
 <!--Welcome Banner-->
-    <div class="welcome" style="background-image: url('images/libraryOut2.jpg');">
+    <div class="welcome" id="welcome" style="background-image: url('images/libraryOut2.jpg');">
         <div class="container-fluid">
-
-            <div class="row">
-                <div class="col">
+            <div class="row ">
+                <div class="col-md-6">
                     <div class="left-side">
                         <h1 style="font-size: 500%"> WELCOME TO
                             UEA LIBRARY!
                         </h1>
-                        <h2 style="font-size: 250%; color: white"> UEA Library is open 24/7
+                        <h2 style="font-size: 250%; color: whitesmoke"> UEA Library is open 24/7
                         </h2>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-6 clearfix visible-xs" id="searchContainer">
                     <div class="right-side">
                         <p class="search_text">
                             Search For:
                         </p>
 
-                        <div class="searchDiv" >
-                            <form>
-                                <input class="librarySearch" type="search" name="mySearch" placeholder="Books, Journals, Databases...">
-                                <input type="submit" value="Search" class="buttonSearch"/>
-                            </form>
-
-                        </div>
+<!--                        <div class="searchDiv" >-->
+                            <input class="librarySearch" type="search" name="mySearch" placeholder="Books, Journals, Databases...">
+                            <input type="submit" value="Search" class="buttonSearch"/>
+<!--                        </div>-->
 
                         <p class="searchOther">
                             Other options
@@ -121,53 +118,93 @@
 <!--    Account Bar-->
 
     <div class="second container-fluid padding">
-       <div class="row padding">
-           <div class="col-md-3">
-               <div class="btn">
+        <div class="row padding">
+            <div class="col-md-3">
+                <div class="account-buttons">
+                    <h1>Services</h1>
+                    <button type="button" class="account"style="padding: 5px; border-radius: 10px; width: 100%; display: block">My Library Account</button>
+                    <button type="button" class="account" style="padding: 5px; border-radius: 10px; width: 100%">Find / Book a Study Space </button>
+                    <button type="button" class="account" style="padding: 5px; border-radius: 10px; width: 100%">Make a Book / e-Book Suggestion</button>
 
-                   <button class="account"style="padding: 5px; border-radius: 10px">My Library Account</button>
-
-               </div>
-               <div class="btn">
-
-                   <button class="account" style="padding: 5px; border-radius: 10px">Find / Book a Study Space </button>
-               </div>
-               <div class="btn">
-
-                   <button class="account" style="padding: 5px; border-radius: 10px">Make a Book / e-Book Suggestion</button>
-
-               </div>
-
-           </div>
-           <div class="col-md-3">
-               <div class="card bg-dark text-white">
-                   <img class="card-img" src="images/servicelib.jpg" alt="Card image">
-                   <div class="card-img-overlay">
-                       <h5 class="card-title">Digital Library / Guides</h5>
-               </div>
-           </div>
-           <div class="col-md-3">
-               <div class="card bg-dark text-white">
-                   <img class="card-img" src="images/servicelib.jpg" alt="Card image">
-                   <div class="card-img-overlay">
-                       <h5 class="card-title">Support</h5>
-                   </div>
-               </div>
-           </div>
-           <div class="col-md-3">
-               <div class="card bg-dark text-white">
-                   <img class="card-img" src="images/servicelib.jpg" alt="Card image">
-                   <div class="card-img-overlay">
-                       <h5 class="card-title">Contact / About Us</h5>
-                   </div>
-               </div>
-           </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="images/libraryMain.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Digital Library / Guides</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="images/libraryIn.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Support</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="images/libraryOut.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Contact / About Us</h5>
+                    </div>
+                </div>
+            </div>
 
 
 
-       </div>
+
+        </div>
+
+
+
 
     </div>
+
+<!--       <div class="row padding">-->
+<!--           <div class="col-md-3">-->
+
+<!--               <div class="account-buttons">-->
+<!--                       <h1>Services</h1>-->
+<!--                       <button type="button" class="account"style="padding: 5px; border-radius: 10px; width: 100%; display: block">My Library Account</button>-->
+<!--                       <button type="button" class="account" style="padding: 5px; border-radius: 10px; width: 100%">Find / Book a Study Space </button>-->
+<!--                       <button type="button" class="account" style="padding: 5px; border-radius: 10px; width: 100%">Make a Book / e-Book Suggestion</button>-->
+
+
+<!--               </div>-->
+
+
+<!--           </div>-->
+<!--           <div class="col-md-3">-->
+<!--               <div class="card bg-dark text-white">-->
+<!--                   <img class="card-img" src="images/libraryMain.jpg" alt="Card image">-->
+<!--                   <div class="card-img-overlay">-->
+<!--                       <h5 class="card-title">Digital Library / Guides</h5>-->
+<!--               </div>-->
+<!--           </div>-->
+<!--           <div class="col-md-3">-->
+<!--               <div class="card bg-dark text-white">-->
+<!--                   <img class="card-img" src="images/libraryIn.jpg" alt="Card image">-->
+<!--                   <div class="card-img-overlay">-->
+<!--                       <h5 class="card-title">Support</h5>-->
+<!--                   </div>-->
+<!--               </div>-->
+<!--           </div>-->
+<!--           <div class="col-md-3">-->
+<!--               <div class="card bg-dark text-white">-->
+<!--                   <img class="card-img" src="images/libraryOut.jpg" alt="Card image">-->
+<!--                   <div class="card-img-overlay">-->
+<!--                       <h5 class="card-title">Contact / About Us</h5>-->
+<!--                   </div>-->
+<!--               </div>-->
+<!--           </div>-->
+
+<!--       </div>-->
+
+<!--    </div>-->
+
 
 <!--    Latest News-->
 
@@ -186,7 +223,7 @@
         <div class="row padding">
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/updatelib.jpg">
+                    <img class="card-img-top" src="images/updatelib.jpg" alt="covid update image">
                     <div class="card-body">
                         <h4 class="card-title">Update on Library Safety</h4>
                         <p class="card-text">To ensure the safety of all UEA students and staff,
@@ -201,7 +238,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/servicelib.jpg">
+                    <img class="card-img-top" src="images/servicelib.jpg" alt="service image">
                     <div class="card-body">
                         <h4 class="card-title">Your Face-to-Face Services at UEA</h4>
                         <p class="card-text">There has been a lot of information about how UEA is going to provide many
@@ -215,7 +252,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/uearead.jpg">
+                    <img class="card-img-top" src="images/uearead.jpg" alt="reading week image">
                     <div class="card-body">
                         <h4 class="card-title">Library Reading Week to Begin</h4>
                         <p class="card-text">Join us for the annual UEA Library Reading Week! These times are
@@ -237,7 +274,7 @@
     <div class="container-fluid padding">
         <div class="row text-center padding">
             <div class="col-12">
-                <h2 style="color: #ff00a5; text-shadow: 1px 1px 1px black">Connect</h2>
+                <h2 style="color: black">Connect</h2>
 
             </div>
             <div class="col-12 social padding">
@@ -246,60 +283,24 @@
                 <a href="#"><i class="fab fa-instagram"></i> </a>
                 <a href="#"><i class="fab fa-youtube"></i> </a>
             </div>
-
-
         </div>
-
-
-
     </div>
 
 
-
-
-<!--    <div class="cards">-->
-<!--        <div class="container-fluid">-->
-<!--            <div class=row">-->
-<!--                <div class="card" style="width: 18rem;">-->
-<!--                    <img class="card-img-top" src="..." alt="Card image cap">-->
-<!--                    <div class="card-body">-->
-<!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="card" style="width: 18rem;">-->
-<!--                    <img class="card-img-top" src="images/libraryOut2.jpg" alt="Card image cap">-->
-<!--                    <div class="card-body">-->
-<!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="card" style="width: 18rem;">-->
-<!--                    <img class="card-img-top" src="..." alt="Card image cap">-->
-<!--                    <div class="card-body">-->
-<!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-
-<!--            </div>-->
-
-<!--        </div>-->
-
-<!--    </div>-->
-
-
-<!--    <footer class="footer" id="library_footer">-->
-<!--        <div class="container container-fluid">-->
-<!--            <div class="col-xs-12">-->
-<!--                <p> © UEA. All rights reserved. University of East Anglia, Norwich Research Park, Norwich, Norfolk, NR4 7TJ, UK-->
-<!--                </p>-->
-<!--                <p>-->
-<!--                    +44 (0) 1603 456161-->
-<!--                </p>-->
-<!--                <figure>-->
-<!--                    <img class="img-fluid" src="images/TEFGold_240.png" alt="Teaching Excellence Framework" style="width: 160px;">-->
-<!--                </figure>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </footer>-->
+    <footer class="libraryFooter" id="library_footer">
+        <div class="container container-fluid">
+            <div class="col-xs-12">
+                <p> © UEA. All rights reserved. University of East Anglia, Norwich Research Park, Norwich, Norfolk, NR4 7TJ, UK
+                </p>
+                <p>
+                    +44 (0) 1603 456161
+                </p>
+                <figure>
+                    <img class="img-fluid" src="images/TEFGold_240.png" alt="Teaching Excellence Framework" style="width: 160px;">
+                </figure>
+            </div>
+        </div>
+    </footer>
 
     </body>
 
