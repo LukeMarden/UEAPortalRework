@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - Navbars now consistent">
-      <change beforePath="$PROJECT_DIR$/css/Library.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Library.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/UEAMaps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/UEAMaps.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/UEAmain.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/UEAmain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="3d581aa2-eb37-44c5-a2eb-8b1b7eb56204" name="Default Changelist" comment="Luke - fixed main navbar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.Library.html">
     <configuration name="404.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UEAPortalRework/Mike/404.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -76,9 +73,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.UEAMaps.html" />
         <item itemvalue="JavaScript Debug.Library.html" />
+        <item itemvalue="JavaScript Debug.UEAMaps.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.404.html" />
       </list>
@@ -207,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608293615438</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Luke - fixed main navbar">
+      <created>1608293860571</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608293860571</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +240,7 @@
     <MESSAGE value="Sven" />
     <MESSAGE value="Luke - Main navbar" />
     <MESSAGE value="Luke - Navbars now consistent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luke - Navbars now consistent" />
+    <MESSAGE value="Luke - fixed main navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Luke - fixed main navbar" />
   </component>
 </project>
