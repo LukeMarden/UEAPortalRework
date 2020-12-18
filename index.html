@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>UEA: University of East Anglia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/UEAmain.css">
+
+  <script src="js/plugins.js"></script>
+  <script src="js/UEAmain.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar Banner -->
+  <nav class="mainNavBar">
+    <a href="index.html">
+      <img class="logoHeader" src="images/logo.png" alt="UEA Homepage" height="50px">
+    </a>
+
+    <div class="buttonContainerHeader">
+      <input class="navSearch" type="search" name="mySearch" placeholder="Start your journey...">
+      <a onclick="openSidebar()" style="background-color: #555957">&#9776;</a>
+    </div>
+
+  </nav>
+
+  <!-- Navigation Sidebar -->
+  <div class="sidebarMenu" id="sidebarMenu" style="display: none">
+    <button id="xButton" onclick="closeSidebar()" type="button">&times</button>
+    <a href="#"><h2>STUDY</h2></a>
+    <a href="#"><h2>UEA LIFE</h2></a>
+    <a href="#"><h2>RESEARCH</h2></a>
+    <a href="#"><h2>BUSINESS</h2></a>
+    <a href="#"><h2>GLOBAL</h2></a>
+    <a href="#"><h2>ABOUT UEA</h2></a>
+  </div>
+
+  <!-- Welcome Banner -->
+  <div class="welcome" style="background-image: url('images/INTO-UEA-campus-outside.jpg');">
+    <br />
+    <h1 style="font-size: 500%">Home of the Wonderful.</h1>
+    <h2>Welcome to the University of East Anglia Website.</h2>
+    <br/>
+    <form>
+        <input class="welcomeSearch" type="search" name="mySearch" placeholder="Start your journey...">
+      <input type="submit" value="Go" class="buttonHeader" style="padding: 25px; border-radius: 10px"/>
+    </form>
+  </div>
+
+  <!-- DISCOVER SECTION -->
+  <div class="discoverHeading container-fluid" style="display: inline-block; margin-top: 50px; float: left">
+    <h1 style="color: #0f0f0f">DISCOVER</h1>
+
+    <!-- Cards Deck -->
+
+    <div class="card-deck" style="float: top">
+      <div class="card discoverCard" id="card1" style="width: 20rem;height: 30rem;">
+        <img class="card-img-top" src="images/img1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">COVID-19: LATEST</h5>
+          <p class="card-text">The latest news on the number of cases on our campus, and what we're doing to kep you safe.</p>
+          <a href="https://www.uea.ac.uk/" class="btn btn-primary">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="card discoverCard stretched-link" id="card2" style="width: 20rem; height: 30rem;">
+        <img class="card-img-top" src="images/img2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">2021/22 Students: The Plan</h5>
+          <p class="card-text">information on the arrangements in place for prospective students next year.</p>
+          <a href="https://www.uea.ac.uk/" class="btn btn-primary">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="card discoverCard stretched-link" id="card3" style="width: 20rem; height: 30rem;">
+        <img class="card-img-top" src="images/img3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">COVID-19: LATEST</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://www.uea.ac.uk/" class="btn btn-primary">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="card discoverCard stretched-link" id="card4" style="width: 20rem; height: 30rem;">
+        <img class="card-img-top" src="images/img4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Groundbreaking Research</h5>
+          <p class="card-text">How the critical research we are doing is playing a key role in shaping the world of tomorrow.</p>
+          <a href="https://www.uea.ac.uk/" class="btn btn-primary">READ MORE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<footer class="card-footer" id="map_footer">
+  <div class="container container-fluid">
+    <div class="col-xs-12">
+      <p> © UEA. All rights reserved. University of East Anglia, Norwich Research Park, Norwich, Norfolk, NR4 7TJ, UK
+      </p>
+      <p>
+        +44 (0) 1603 456161
+      </p>
+      <figure>
+        <img class="img-fluid" src="images/TEFGold_240.png" alt="Teaching Excellence Framework" style="width: 160px;">
+      </figure>
+    </div>
+  </div>
+</footer>
+
+</html>
