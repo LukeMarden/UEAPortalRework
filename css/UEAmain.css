@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.mainNavBar {
+  position: sticky;
+  top: 0;
+  padding: 15px 50px;
+  background-color: #222222;
+  box-shadow: 0 3px 5px black;
+}
+
+.logoHeader {
+  margin: 0;
+}
+
+.buttonContainerHeader {
+  float: right;
+}
+
+.buttonHeader {
+  background-color: #ff00a5;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  display: inline-block;
+  transition-duration: 0.2s;
+}
+
+.buttonHeader:hover {
+  background-color: white;
+  color: black;
+}
+
+.welcome {
+  background-image: url('images/INTO-UEA-campus-outside.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: static;
+  padding: 60px;
+}
+
+.welcome h1, h2 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px 3px black;
+  margin-bottom: 10px;
+}
+
+.welcomeSearch {
+  background-color: rgba(255,255,255,0.1);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: 5px solid #ffffff;
+  border-radius: 15px;
+  padding: 20px 15px;
+  width:85%;
+  max-width: 900px;
+  display: inline-block;
+  transition-duration: 0.2s;
+}
+
+.navSearch {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border: 5px solid #ffffff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  width:400px;
+  display: inline-block;
+  transition-duration: 0.2s;
+}
+
+.standardDiv {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.discoverHeading {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.discoverCard {
+  margin: 10px;
+  display: inline-block;
+  z-index: 0;
+}
+
+
+
+
+
+/* MENU SIDEBAR */
+
+.sidebarMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebarMenu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebarMenu a:hover {
+  color: #f1f1f1;
+}
+
+.sidebarMenu #xButton {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
