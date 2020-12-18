@@ -159,6 +159,7 @@ h1 {
 }
 
 .navbar {
+  z-index: 0;
   position: sticky;
   background: #282828;
   color: white;

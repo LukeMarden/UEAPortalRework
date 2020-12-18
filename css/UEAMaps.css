@@ -33,6 +33,7 @@ body{
 }
 
 .navbar {
+    z-index: 0;
     background: #282828;
     color: white;
     border-bottom: 5px solid;
